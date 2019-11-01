@@ -18,7 +18,7 @@ class Oop1Tests(unittest.TestCase):
   def test_ground_vehicle(self):
     self.assertTrue(isinstance(self.ground_vehicle, GroundVehicle))
     self.assertTrue(isinstance(self.ground_vehicle, Vehicle))
-    
+
   def test_starship(self):
     self.assertTrue(isinstance(self.starship, Starship))
     self.assertTrue(isinstance(self.starship, FlightVehicle))
